@@ -1,1 +1,15 @@
-Link para download od Git:
+Link para download do Git: https://git-scm.com/downloads
+
+Alguns comandos utilizados no GitBash(Windows):
+
+ls = listar
+-a = mostra arquivos ocultos
+git init = inicia(cria)repositorio no git  
+mv = mover arquivos
+mkdir = cria pastas
+echo = cria arquivo 
+git add * = pega tudo que esta na pasta e coloca pronto para comitar (staged)
+git commit -m = pega os arquivos staged e envolopa-os em uma mensagem(move para nosso repositorio local), dando significancia a ele.
+git remote add apelido link = adiciona repositorio no github(passo1) EX = git remote add origin https://github.com/teuz044/livro-receitas.git
+git push apelido master = manda o repositorio para o github (passo2)
+git clone + link = clona um repositorio
